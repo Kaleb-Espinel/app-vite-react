@@ -98,6 +98,47 @@
     "a3": "Grecia",
     "a4": "Roma",
     "correct": "Grecia"
+  },
+  {
+    "id": 11,
+    "question": "La ecuacion fundamental de la fuerza es:",
+    "clase": "true",
+    "a1": "F=ma",
+    "a2": "a=m/F",
+    "a3": "d=vt",
+    "a4": "E=mc²",
+    "correct": "F=ma"
+
+  }, {
+    "id": 12,
+    "question": "La ecuacion fundamental del mru es:",
+    "clase": "true",
+    "a1": "F=ma",
+    "a2": "a=m/F",
+    "a3": "d=vt",
+    "a4": "E=mc²",
+    "correct": "d=vt"
+
+  }, {
+    "id": 13,
+    "question": "La ecuacion fundamental de la energia es:",
+    "clase": "true",
+    "a1": "F=ma",
+    "a2": "a=m/F",
+    "a3": "d=vt",
+    "a4": "E=mc²",
+    "correct": "E=mc²"
+
+  }, {
+    "id": 14,
+    "question": "La ecuacion fundamental de la aceleracion es:",
+    "clase": "true",
+    "a1": "F=ma",
+    "a2": "a=m/F",
+    "a3": "d=vt",
+    "a4": "E=mc²",
+    "correct": "a=m/F"
+
   }
 ]
 

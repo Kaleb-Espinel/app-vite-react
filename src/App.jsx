@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import "./index.css";
 
-
 export function Questions() {
   const [data, setData] = useState([]);
   const [answers, setAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
   const [score, setScore] = useState(0);
+  const [FirstClick, setFirstClick] = useState(true);
 
+  //Traer datos de .json
   useEffect(() => {
     fetch("./data.json")
       .then((response) => response.json())
@@ -16,12 +17,20 @@ export function Questions() {
         setData(jsondata);
       })
       .catch((error) => {
-        console.error("Error al cargar la informacion desde el servidor", error);
+        console.error(
+          "Error al cargar la informacion desde el servidor",
+          error
+        );
       });
   }, []);
 
+  // Valida la pregunta
   const dataActive = data.filter((item) => item.clase === "true");
 
+  //Cambia el comportamiento despues del primer click
+
+
+  // Maneja el cambio de respuesta
   const handleChange = (questionId, selectedAnswer) => {
     setAnswers({
       ...answers,
@@ -29,21 +38,34 @@ export function Questions() {
     });
   };
 
+  // Verifica las respuestas
   const handleCheckAnswers = () => {
+
+    if (FirstClick) {
+      console.log("Primer click");
+      setFirstClick(false); // cambia el comportamiento
+    } else {
+      window.location.reload();
+    }
+
     let correctCount = 0;
 
     dataActive.forEach((question) => {
       const userAnswer = answers[question.id];
       if (userAnswer === question.correct) {
-        correctCount += 1;
+        correctCount += 10 / dataActive.length; 
       }
     });
 
     setScore(correctCount);
     setShowResults(true);
   };
-  const handleScore = () => {};
 
+
+
+
+
+  // Obtiene el color de la respuesta
   const getColor = (questionId, option) => {
     if (!showResults) return "";
     const correctAnswer = data.find((q) => q.id === questionId)?.correct;
@@ -112,6 +134,8 @@ export function Questions() {
         <button
           className="mx-5 my-2.5 border-2 p-2 rounded-md bg-green-300 font-semibold hover:bg-amber-300"
           onClick={handleCheckAnswers}
+          
+
         >
           Comprobar respuestas
         </button>
@@ -121,10 +145,23 @@ export function Questions() {
               score >= 7 ? "text-green-700" : "text-red-600"
             }`}
           >
-            Has obtenido: {score} / {dataActive.length}
+            Has obtenido: {Math.round(score)} / 10
           </div>
         )}
       </div>
     </div>
   );
+
+
+function numberrandom() {
+  const min = 1;
+  const max = 10;
+  const prueba = Math.floor(Math.random() * (max - min + 1)) + min;
+  let prueba2 = Math.floor(Math.random() * (max - min + 1)) + min;
+
+  if (prueba === prueba2) {
+    prueba2 = Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+  console.log([prueba, prueba2]);
+}
 }
