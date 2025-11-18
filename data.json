@@ -139,6 +139,16 @@
     "a4": "E=mc²",
     "correct": "a=m/F"
 
+  },
+  {
+    "id": 15,
+    "question": "La Declaracion de los Derechos Humanos fue proclamada en:",
+    "clase": "true",
+    "a1": "1945",
+    "a2": "1789",
+    "a3": "1200",
+    "a4": "560",
+    "correct": "1789"
   }
 ]
 
