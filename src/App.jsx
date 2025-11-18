@@ -29,7 +29,6 @@ export function Questions() {
 
   //Cambia el comportamiento despues del primer click
 
-
   // Maneja el cambio de respuesta
   const handleChange = (questionId, selectedAnswer) => {
     setAnswers({
@@ -40,7 +39,6 @@ export function Questions() {
 
   // Verifica las respuestas
   const handleCheckAnswers = () => {
-
     if (FirstClick) {
       console.log("Primer click");
       setFirstClick(false); // cambia el comportamiento
@@ -53,17 +51,13 @@ export function Questions() {
     dataActive.forEach((question) => {
       const userAnswer = answers[question.id];
       if (userAnswer === question.correct) {
-        correctCount += 10 / dataActive.length; 
+        correctCount += 10 / dataActive.length;
       }
     });
 
     setScore(correctCount);
     setShowResults(true);
   };
-
-
-
-
 
   // Obtiene el color de la respuesta
   const getColor = (questionId, option) => {
@@ -134,8 +128,6 @@ export function Questions() {
         <button
           className="mx-5 my-2.5 border-2 p-2 rounded-md bg-green-300 font-semibold hover:bg-amber-300"
           onClick={handleCheckAnswers}
-          
-
         >
           Comprobar respuestas
         </button>
@@ -152,16 +144,15 @@ export function Questions() {
     </div>
   );
 
+  function numberrandom() {
+    const min = 1;
+    const max = 10;
+    const prueba = Math.floor(Math.random() * (max - min + 1)) + min;
+    let prueba2 = Math.floor(Math.random() * (max - min + 1)) + min;
 
-function numberrandom() {
-  const min = 1;
-  const max = 10;
-  const prueba = Math.floor(Math.random() * (max - min + 1)) + min;
-  let prueba2 = Math.floor(Math.random() * (max - min + 1)) + min;
-
-  if (prueba === prueba2) {
-    prueba2 = Math.floor(Math.random() * (max - min + 1)) + min;
+    if (prueba === prueba2) {
+      prueba2 = Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    console.log([prueba, prueba2]);
   }
-  console.log([prueba, prueba2]);
-}
 }
