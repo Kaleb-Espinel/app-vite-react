@@ -1,154 +1,142 @@
 [
   {
     "id": 1,
-    "question": "¿Cual es la nomenclatura de la sal?",
+    "question": "¿En qué año nació Francesco Redi?",
     "clase": "true",
-    "a1": "H2O",
-    "a2": "NaCl",
-    "a3": "ClNa",
-    "a4": "Sal de mesa",
-    "correct": "NaCl"
+    "a1": "1500",
+    "a2": "1626",
+    "a3": "1701",
+    "a4": "1800",
+    "correct": "1626"
   },
   {
     "id": 2,
-    "question": "¿Cual es la capital de Rusia?",
+    "question": "¿En qué país nació Francesco Redi?",
     "clase": "true",
-    "a1": "Moscu",
-    "a2": "Kazan",
-    "a3": "Tiumen",
-    "a4": "Bangladesh",
-    "correct": "Moscu"
-  },
-  {
-    "id": 3,
-    "question": "¿Quien escribio la Odisea?",
-    "clase": "true",
-    "a1": "Homero",
-    "a2": "Ulises",
-    "a3": "Platon",
-    "a4": "Ninguna de las anteriores",
-    "correct": "Homero"
-  },
-  {
-    "id": 4,
-    "question": "¿Cual es el rio mas largo del mundo?",
-    "clase": "true",
-    "a1": "Nilo",
-    "a2": "Amazonas",
-    "a3": "Misisipi",
-    "a4": "Yangtse",
-    "correct": "Amazonas"
-  },
-  {
-    "id": 5,
-    "question": "¿Cuantos huesos hay en el cuerpo humano?",
-    "clase": "true",
-    "a1": "900",
-    "a2": "306",
-    "a3": "206",
-    "a4": "150",
-    "correct": "206"
-  },
-  {
-    "id": 6,
-    "question": "¿Cuándo acabó la II Guerra Mundial?",
-    "clase": "true",
-    "a1": "1945",
-    "a2": "1939",
-    "a3": "2020",
-    "a4": "1914",
-    "correct": "1945"
-  },
-  {
-    "id": 7,
-    "question": "¿Quién pintó “la última cena”?",
-    "clase": "true",
-    "a1": "Miguel Angel",
-    "a2": "Rafael Sanzio",
-    "a3": "Picasso",
-    "a4": "Leonardo da Vinci.",
-    "correct": "Leonardo da Vinci."
-  },
-  {
-    "id": 8,
-    "question": "¿En qué país se encuentra la torre de Pisa?",
-    "clase": "true",
-    "a1": "Italia",
-    "a2": "Paris",
-    "a3": "Gran Bretaña",
-    "a4": "Reino Unido",
+    "a1": "Francia",
+    "a2": "España",
+    "a3": "Italia",
+    "a4": "Inglaterra",
     "correct": "Italia"
   },
   {
-    "id": 9,
-    "question": "¿Quien es el director tecnico del Real Madrid CF?",
+    "id": 3,
+    "question": "¿Qué teoría científica cuestionó Francesco Redi?",
     "clase": "true",
-    "a1": "Xabi Alonso",
-    "a2": "Carlo Ancelotti",
-    "a3": "Cristiano Ronaldo",
-    "a4": "Zinedine Zidane",
-    "correct": "Xabi Alonso"
+    "a1": "Teoría celular",
+    "a2": "Teoría de la evolución",
+    "a3": "Generación espontánea",
+    "a4": "Teoría atómica",
+    "correct": "Generación espontánea"
+  },
+  {
+    "id": 4,
+    "question": "¿Qué utilizó Francesco Redi en su experimento más famoso?",
+    "clase": "true",
+    "a1": "Plantas y agua",
+    "a2": "Carne y frascos",
+    "a3": "Microscopios",
+    "a4": "Animales vivos",
+    "correct": "Carne y frascos"
+  },
+  {
+    "id": 5,
+    "question": "¿Qué ocurrió en los frascos cubiertos con gasa en el experimento de Redi?",
+    "clase": "true",
+    "a1": "Aparecieron gusanos",
+    "a2": "La carne desapareció",
+    "a3": "No aparecieron gusanos",
+    "a4": "Crecieron bacterias",
+    "correct": "No aparecieron gusanos"
+  },
+  {
+    "id": 6,
+    "question": "¿Qué demostró Francesco Redi con su experimento?",
+    "clase": "true",
+    "a1": "Que la vida surge del aire",
+    "a2": "Que los gusanos nacen de la carne",
+    "a3": "Que la vida solo puede surgir de la vida",
+    "a4": "Que la carne produce vida",
+    "correct": "Que la vida solo puede surgir de la vida"
+  },
+  {
+    "id": 7,
+    "question": "¿Por qué Francesco Redi es importante para la ciencia?",
+    "clase": "true",
+    "a1": "Inventó el microscopio",
+    "a2": "Descubrió las bacterias",
+    "a3": "Introdujo el método experimental en biología",
+    "a4": "Creó la teoría celular",
+    "correct": "Introdujo el método experimental en biología"
+  },
+  {
+    "id": 8,
+    "question": "¿En qué año nació Anton van Leeuwenhoek?",
+    "clase": "true",
+    "a1": "1600",
+    "a2": "1632",
+    "a3": "1700",
+    "a4": "1750",
+    "correct": "1632"
+  },
+  {
+    "id": 9,
+    "question": "¿Cuál era la profesión original de Anton van Leeuwenhoek?",
+    "clase": "true",
+    "a1": "Médico",
+    "a2": "Profesor",
+    "a3": "Comerciante de telas",
+    "a4": "Astrónomo",
+    "correct": "Comerciante de telas"
   },
   {
     "id": 10,
-    "question": "¿Donde se originaron los juegos olimpicos?",
+    "question": "¿Qué instrumento perfeccionó Anton van Leeuwenhoek?",
     "clase": "true",
-    "a1": "España",
-    "a2": "Rusia",
-    "a3": "Grecia",
-    "a4": "Roma",
-    "correct": "Grecia"
+    "a1": "Telescopio",
+    "a2": "Termómetro",
+    "a3": "Microscopio",
+    "a4": "Barómetro",
+    "correct": "Microscopio"
   },
   {
     "id": 11,
-    "question": "La ecuacion fundamental de la fuerza es:",
+    "question": "¿Qué observó Anton van Leeuwenhoek por primera vez?",
     "clase": "true",
-    "a1": "F=ma",
-    "a2": "a=m/F",
-    "a3": "d=vt",
-    "a4": "E=mc²",
-    "correct": "F=ma"
-
-  }, {
-    "id": 12,
-    "question": "La ecuacion fundamental del mru es:",
-    "clase": "true",
-    "a1": "F=ma",
-    "a2": "a=m/F",
-    "a3": "d=vt",
-    "a4": "E=mc²",
-    "correct": "d=vt"
-
-  }, {
-    "id": 13,
-    "question": "La ecuacion fundamental de la energia es:",
-    "clase": "true",
-    "a1": "F=ma",
-    "a2": "a=m/F",
-    "a3": "d=vt",
-    "a4": "E=mc²",
-    "correct": "E=mc²"
-
-  }, {
-    "id": 14,
-    "question": "La ecuacion fundamental de la aceleracion es:",
-    "clase": "true",
-    "a1": "F=ma",
-    "a2": "a=m/F",
-    "a3": "d=vt",
-    "a4": "E=mc²",
-    "correct": "a=m/F"
-
+    "a1": "Células vegetales",
+    "a2": "Átomos",
+    "a3": "Microorganismos",
+    "a4": "Virus",
+    "correct": "Microorganismos"
   },
   {
-    "id": 15,
-    "question": "La Declaracion de los Derechos Humanos fue proclamada en:",
+    "id": 12,
+    "question": "¿Cómo llamó Anton van Leeuwenhoek a los microorganismos que observó?",
     "clase": "true",
-    "a1": "1945",
-    "a2": "1789",
-    "a3": "1200",
-    "a4": "560",
-    "correct": "1789"
+    "a1": "Bacterias",
+    "a2": "Animálculos",
+    "a3": "Microbios",
+    "a4": "Células",
+    "correct": "Animálculos"
+  },
+  {
+    "id": 13,
+    "question": "¿Con qué institución científica compartió Leeuwenhoek sus descubrimientos?",
+    "clase": "true",
+    "a1": "Academia Francesa",
+    "a2": "Universidad de Oxford",
+    "a3": "Royal Society de Londres",
+    "a4": "Vaticano",
+    "correct": "Royal Society de Londres"
+  },
+  {
+    "id": 14,
+    "question": "¿Por qué Anton van Leeuwenhoek es considerado el padre de la microbiología?",
+    "clase": "true",
+    "a1": "Inventó el microscopio moderno",
+    "a2": "Descubrió los virus",
+    "a3": "Fue el primero en observar seres microscópicos",
+    "a4": "Creó la teoría celular",
+    "correct": "Fue el primero en observar seres microscópicos"
   }
 ]
-

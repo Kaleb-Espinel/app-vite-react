@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cual es la nomenclatura de la sal?",
+    "clase": "true",
+    "a1": "H2O",
+    "a2": "NaCl",
+    "a3": "ClNa",
+    "a4": "Sal de mesa",
+    "correct": "NaCl"
+  },
+  {
+    "id": 2,
+    "question": "¿Cual es la capital de Rusia?",
+    "clase": "true",
+    "a1": "Moscu",
+    "a2": "Kazan",
+    "a3": "Tiumen",
+    "a4": "Bangladesh",
+    "correct": "Moscu"
+  },
+  {
+    "id": 3,
+    "question": "¿Quien escribio la Odisea?",
+    "clase": "true",
+    "a1": "Homero",
+    "a2": "Ulises",
+    "a3": "Platon",
+    "a4": "Ninguna de las anteriores",
+    "correct": "Homero"
+  },
+  {
+    "id": 4,
+    "question": "¿Cual es el rio mas largo del mundo?",
+    "clase": "true",
+    "a1": "Nilo",
+    "a2": "Amazonas",
+    "a3": "Misisipi",
+    "a4": "Yangtse",
+    "correct": "Amazonas"
+  },
+  {
+    "id": 5,
+    "question": "¿Cuantos huesos hay en el cuerpo humano?",
+    "clase": "true",
+    "a1": "900",
+    "a2": "306",
+    "a3": "206",
+    "a4": "150",
+    "correct": "206"
+  },
+  {
+    "id": 6,
+    "question": "¿Cuándo acabó la II Guerra Mundial?",
+    "clase": "true",
+    "a1": "1945",
+    "a2": "1939",
+    "a3": "2020",
+    "a4": "1914",
+    "correct": "1945"
+  },
+  {
+    "id": 7,
+    "question": "¿Quién pintó “la última cena”?",
+    "clase": "true",
+    "a1": "Miguel Angel",
+    "a2": "Rafael Sanzio",
+    "a3": "Picasso",
+    "a4": "Leonardo da Vinci.",
+    "correct": "Leonardo da Vinci."
+  },
+  {
+    "id": 8,
+    "question": "¿En qué país se encuentra la torre de Pisa?",
+    "clase": "true",
+    "a1": "Italia",
+    "a2": "Paris",
+    "a3": "Gran Bretaña",
+    "a4": "Reino Unido",
+    "correct": "Italia"
+  },
+  {
+    "id": 9,
+    "question": "¿Quien es el director tecnico del Real Madrid CF?",
+    "clase": "true",
+    "a1": "Xabi Alonso",
+    "a2": "Carlo Ancelotti",
+    "a3": "Cristiano Ronaldo",
+    "a4": "Zinedine Zidane",
+    "correct": "Xabi Alonso"
+  },
+  {
+    "id": 10,
+    "question": "¿Donde se originaron los juegos olimpicos?",
+    "clase": "true",
+    "a1": "España",
+    "a2": "Rusia",
+    "a3": "Grecia",
+    "a4": "Roma",
+    "correct": "Grecia"
+  },
+  {
+    "id": 11,
+    "question": "La ecuacion fundamental de la fuerza es:",
+    "clase": "true",
+    "a1": "F=ma",
+    "a2": "a=m/F",
+    "a3": "d=vt",
+    "a4": "E=mc²",
+    "correct": "F=ma"
+
+  }, {
+    "id": 12,
+    "question": "La ecuacion fundamental del mru es:",
+    "clase": "true",
+    "a1": "F=ma",
+    "a2": "a=m/F",
+    "a3": "d=vt",
+    "a4": "E=mc²",
+    "correct": "d=vt"
+
+  }, {
+    "id": 13,
+    "question": "La ecuacion fundamental de la energia es:",
+    "clase": "true",
+    "a1": "F=ma",
+    "a2": "a=m/F",
+    "a3": "d=vt",
+    "a4": "E=mc²",
+    "correct": "E=mc²"
+
+  }, {
+    "id": 14,
+    "question": "La ecuacion fundamental de la aceleracion es:",
+    "clase": "true",
+    "a1": "F=ma",
+    "a2": "a=m/F",
+    "a3": "d=vt",
+    "a4": "E=mc²",
+    "correct": "a=m/F"
+
+  },
+  {
+    "id": 15,
+    "question": "La Declaracion de los Derechos Humanos fue proclamada en:",
+    "clase": "true",
+    "a1": "1945",
+    "a2": "1789",
+    "a3": "1200",
+    "a4": "560",
+    "correct": "1789"
+  }
+]
+
